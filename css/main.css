@@ -32,13 +32,13 @@
             display: inline-block;
             width: 50%;
             float: left;
-            background-color: blue;
+         
         }
         .right-column {
             display: inline-block;
             width: 40%;
             float: right;
-            background-color: red;
+          
         }
         .socials {
             display: inline-block;
