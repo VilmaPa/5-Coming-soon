@@ -90,18 +90,96 @@
                 margin-bottom: 15px;
             }
 
+        footer.container {
+            padding-top: 0;
+        }
         .socials {
             display: inline-block;
             width: 100%;
+            float: left;
             border-bottom: 1px solid white;
-        
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #fff;
+            text-align: center;
         }
+        .socials > a {
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            width: 40px;
+            line-height: 20px;
+            margin: 10px;
+            
+
+        }
+.socials > a:hover {
+    background-color: white;
+    border-radius: 50%;
+    color: #03A9F5;
+}
         .footer-texts {
             display: inline-block;
             width: 600px;
             margin-left: calc((100% - 600px) / 2);
-           
+           text-align: center;
+           color: white;
+           font-size: 18px;
         }
+            .footer-texts > .logo {
+                margin-bottom: 30px;
+                height: 40px;
+
+            }
+            .copyright {
+                display: inline-block;
+                width: 100%;
+            }
+                .copyright > .texts {
+                    display: inline-block;
+                    float: left;
+                }
+                .copyright > .texts.borders {
+                   
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    position: relative;
+                    
+                }
+                .copyright > .texts.borders::before {
+                    content: ''; 
+                    width:  1px;
+                    height:  16px;
+                    display: inline-block;
+                    background-color: white;
+                    position: absolute;
+                    left: -9px;
+                    top: 6px;
+                }
+                .copyright > .texts.borders::after {
+                    content: ''; 
+                    width:  1px;
+                    height:  16px;
+                    display: inline-block;
+                    background-color: white;
+                    position: absolute;
+                    right: -9px;
+                    top: 6px;
+                }
+
+
+                    .copyright > .texts >a {
+                        display: inline-block;
+                    }
+                .footer-texts > p{
+
+                }
+                .footer-texts a {
+                    color: white;
+
+                }
+
         @media (max-width: 1100px) {
             .row{
                 width: 800px;
@@ -131,6 +209,10 @@
             }
                
         }
+
+       
+
+        }
         @media (max-width: 700px) {
             
             .hero-row ,
@@ -141,6 +223,17 @@
                 margin-left: calc((100% - 400px) / 2);
                
             }
+            .copyright > .texts {
+               width: 100%;
+            }
+            .copyright > .texts.borders {
+                margin: 0;
+            }
+            .copyright > .texts.borders::before, 
+            .copyright > .texts.borders::after {
+                display: none;
+            }
+           
         }
         @media (max-width: 500px) {
            .container {
