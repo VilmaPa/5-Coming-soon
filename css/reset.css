@@ -1,3 +1,8 @@
+/* sklandziai nuskrolina  */
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 body * {
 margin: 0;
