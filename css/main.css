@@ -68,6 +68,9 @@
             .column-description {
                 margin-bottom: 30px;
             }
+            .form > .btn {
+                float: right;;
+            }
     footer.container {
         padding-top: 0;
     }
