@@ -48,6 +48,9 @@
             margin-right: 5%;
             margin-bottom: 20px;
         }
+        .hero-row > .form > input {
+            background-color: transparent;
+        }
     .row {
         display: inline-block;
         width: 1000px;
@@ -67,6 +70,9 @@
             }
             .column-description {
                 margin-bottom: 30px;
+            }
+            .form > .btn {
+                float: right;;
             }
     footer.container {
         padding-top: 0;
