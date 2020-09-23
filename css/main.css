@@ -48,6 +48,9 @@
             margin-right: 5%;
             margin-bottom: 20px;
         }
+        .hero-row > .form > input {
+            background-color: transparent;
+        }
     .row {
         display: inline-block;
         width: 1000px;
